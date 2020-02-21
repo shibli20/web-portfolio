@@ -1,0 +1,18 @@
+body{
+    font-family: 'Roboto Mono', ;
+    font-family: 'Poppins', ;
+}
+.headline{
+    font: 50px;
+}
+.highlight{
+    color: orangered;
+}
+.half-width {
+    width:40%;
+    float:left;
+}
+.half-width img{
+    width: 70%;
+    margin: 100px;
+}

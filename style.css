@@ -5,7 +5,14 @@ body{
 h1{
     font-size: 50px;
 }
-.highlight{
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+
+.orange-highlight{
     color: orange;
 }
 .half-width{
@@ -22,7 +29,7 @@ h1{
     background-repeat: no-repeat;
 }
 section{
-    height: 500px;
+    height: 600px;
 }
 .link-button{
     text-decoration: none;
@@ -32,4 +39,9 @@ section{
     border-radius: 5px;
     color: wheat;
     font-weight: 700;
+}
+.dream-area{
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }

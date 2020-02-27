@@ -23,9 +23,7 @@ p{
 }
 #first-section{
      height:700px;
-     background-image: url(image/header-bg.png);
-     border: 1px solid red;
-    
+     background-image: url(image/header-bg.png);    
 }
 .text-part{
     width: 40%;
@@ -39,15 +37,57 @@ p{
      float: left;
 }
 #second-section{
-    width:600px
-    background-image: url(image/biography-bg.png);
-    border:2px solid red;
+    background-image: url("image/biography-bg.png");
+    height: 800px;
 }
 
 .image-two{
-
-    }
+   width: 40%;
+   float: left;
+  
+}
     
    
 .text-second{
+   width: 40%;
+   float: left;
+   padding-top: 300px;
+   margin-left: 70px;
+}
+#my-latest-work{
    
+   background-image: url("image/latest-work-bg.png");
+   height: 700px;
+
+}
+h2{
+    text-align: center;
+}
+.pic1{
+      width: 30%;
+      float: left;
+      margin-left: 50px;
+      
+
+}
+.pic2{
+      width: 30%;
+      float: left;
+      margin-left: 50px;
+     
+}
+.pic3{
+    width: 3%;
+    float: left;
+    margin-left: 50px;
+   }
+   .client{
+       text-align: center;
+   }
+   .contact-me{
+       background: magenta;
+       background-position: center center;
+   }
+   footer.p{
+       font-size: 10px;
+   }

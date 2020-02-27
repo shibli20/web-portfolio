@@ -4,9 +4,6 @@ body{
 h2{
     font-size: 40px;
 }
-p{
-    font-size: 20px;
-}
 
 .highlight{
     font-size: 50px;
@@ -58,6 +55,7 @@ p{
    
    background-image: url("image/latest-work-bg.png");
    height: 700px;
+   
 
 }
 h2{
@@ -84,10 +82,12 @@ h2{
    .client{
        text-align: center;
    }
-   .contact-me{
-       background: magenta;
-       background-position: center center;
-   }
-   footer.p{
-       font-size: 10px;
-   }
+   .text{
+    display: table; 
+    margin: 0px auto 0px auto; 
+    padding:20px;font-size:30px;background-color:magenta;
+    border-radius: 5px;
+ }
+.text:hover{
+    color:white;
+}
